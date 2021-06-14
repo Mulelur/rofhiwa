@@ -16,14 +16,12 @@ export default function ExpertiseContainer() {
         <Expertise.Col>
           <Expertise.Heading1># what i do</Expertise.Heading1>
           <Expertise.Text>
-            I am good at using CAD and I would love to see myself somewhere
-            owning a big construction company going by my name. I love drawing,
-            playing soccer and going out with my friends, not forgetting
-            learning new designing skills whenever I get a chance to.
+            Currently I am still a student who is busy studying a course of
+            civil engineering at vaal University of technology but on my free
+            time I tend to get busy with designing houses, malls and roads even
+            selling house plans.
           </Expertise.Text>
-          <Expertise.Text>
-            I love drawing and designing building and structures.
-          </Expertise.Text>
+          <Expertise.Text></Expertise.Text>
         </Expertise.Col>
         <Expertise.Col>
           {/* <Expertise.Avatar>

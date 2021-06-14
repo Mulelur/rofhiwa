@@ -8,7 +8,6 @@ export default function HomeContainer() {
   return (
     <Home>
       <Home.Column>
-        <Home.Text>I am lufhugu Rofhiwa</Home.Text>
         <Home.Title>
           <Typewiter
             options={{
@@ -26,8 +25,8 @@ export default function HomeContainer() {
           />
         </Home.Title>
         <Home.Text>
-          Whome in futures will be surveying, designing houses and malls,
-          managing projects all over the world.. Lets go
+          I am lufhugu Rofhiwa, Whome in futures will be surveying, designing
+          houses and malls, managing projects all over the world.. Lets go
         </Home.Text>
         <Home.Link href={cv} target="_blank">
           download cv

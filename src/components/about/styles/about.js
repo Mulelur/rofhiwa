@@ -27,7 +27,7 @@ export const Column = styled.div`
 
 export const Text = styled.p`
   color: #2b2b2b;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: 400;
   line-height: 1.5;
   padding: 1.5rem;

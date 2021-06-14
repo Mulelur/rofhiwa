@@ -18,47 +18,23 @@ export default function HobbiesContainer() {
           <Hobbies.MyHobbies>
             <Hobbies.Item>
               <Hobbies.Header>
-                <Hobbies.Heading2>🎧 Listening</Hobbies.Heading2>
+                <Hobbies.Heading2>🎧 Listening To Music</Hobbies.Heading2>
               </Hobbies.Header>
-              <Hobbies.Body>
-                <Hobbies.List>
-                  <Hobbies.ListItem>
-                    Kevin Crawford - Bag of Spuds
-                  </Hobbies.ListItem>
-                  <Hobbies.ListItem>Maribou State - Steal</Hobbies.ListItem>
-                  <Hobbies.ListItem>John Grant - GMF</Hobbies.ListItem>
-                </Hobbies.List>
-              </Hobbies.Body>
             </Hobbies.Item>
             <Hobbies.Item>
               <Hobbies.Header>
-                <Hobbies.Heading2>📘 Reading</Hobbies.Heading2>
+                <Hobbies.Heading2>📘 Reading Books</Hobbies.Heading2>
               </Hobbies.Header>
-              <Hobbies.Body>
-                <Hobbies.List>
-                  <Hobbies.ListItem>
-                    Kevin Crawford - Bag of Spuds
-                  </Hobbies.ListItem>
-                  <Hobbies.ListItem>Let My People Go Surfing</Hobbies.ListItem>
-                  <Hobbies.ListItem>The Poor Mouth (Again)</Hobbies.ListItem>
-                </Hobbies.List>
-              </Hobbies.Body>
             </Hobbies.Item>
             <Hobbies.Item>
               <Hobbies.Header>
-                <Hobbies.Heading2>📺 Watching</Hobbies.Heading2>
+                <Hobbies.Heading2>📺 Watching TV</Hobbies.Heading2>
               </Hobbies.Header>
-              <Hobbies.Body>
-                <Hobbies.List>
-                  <Hobbies.ListItem>
-                    Kevin Crawford - Bag of Spuds
-                  </Hobbies.ListItem>
-                  <Hobbies.ListItem>Series: Line of Duty</Hobbies.ListItem>
-                  <Hobbies.ListItem>
-                    Van's Surf: Sonic Souvenirs
-                  </Hobbies.ListItem>
-                </Hobbies.List>
-              </Hobbies.Body>
+            </Hobbies.Item>
+            <Hobbies.Item>
+              <Hobbies.Header>
+                <Hobbies.Heading2>⚽ Playing Soccer</Hobbies.Heading2>
+              </Hobbies.Header>
             </Hobbies.Item>
           </Hobbies.MyHobbies>
         </Hobbies.Col>
