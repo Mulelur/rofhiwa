@@ -8,12 +8,18 @@ import {
   ListItem,
   Col,
   Row,
-  Img,
+  Image,
+  Image1,
+  Avatar,
   Matrix,
   MatrixBody,
   MatrixHeader,
   MatrixList,
   MatrixListItem,
+  MatrixTitleContainer,
+  SubjectRow,
+  Link,
+  MMRow,
 } from "./styles/expertise";
 
 export default function Expertise({ children, ...restProps }) {
@@ -48,8 +54,12 @@ Expertise.Col = function ExpertiseCol({ children, ...restProps }) {
   return <Col {...restProps}>{children}</Col>;
 };
 
-Expertise.Img = function ExpertiseImg({ children, ...restProps }) {
-  return <Img {...restProps}>{children}</Img>;
+Expertise.Image = function ExpertiseImage({ children, ...restProps }) {
+  return <Image {...restProps}>{children}</Image>;
+};
+
+Expertise.Image1 = function ExpertiseImage1({ children, ...restProps }) {
+  return <Image1 {...restProps}>{children}</Image1>;
 };
 
 Expertise.Matrix = function ExpertiseMatrix({ children, ...restProps }) {
@@ -81,4 +91,30 @@ Expertise.MatrixListItem = function ExpertiseMatrixListItem({
   ...restProps
 }) {
   return <MatrixListItem {...restProps}>{children}</MatrixListItem>;
+};
+
+Expertise.Avatar = function ExpertiseAvatar({ children, ...restProps }) {
+  return <Avatar {...restProps}>{children}</Avatar>;
+};
+
+Expertise.SubjectRow = function ExpertiseSubjectRow({
+  children,
+  ...restProps
+}) {
+  return <SubjectRow {...restProps}>{children}</SubjectRow>;
+};
+
+Expertise.MatrixTitleContainer = function ExpertiseMatrixTitleContainer({
+  children,
+  ...restProps
+}) {
+  return <MatrixTitleContainer {...restProps}>{children}</MatrixTitleContainer>;
+};
+
+Expertise.Link = function ExpertiseLink({ children, ...restProps }) {
+  return <Link {...restProps}>{children}</Link>;
+};
+
+Expertise.MMRow = function ExpertiseMMRow({ children, ...restProps }) {
+  return <MMRow {...restProps}>{children}</MMRow>;
 };

@@ -9,6 +9,7 @@ import {
   List,
   Link,
   ListItem,
+  ListColumn,
 } from "./styles/footer";
 
 export default function Footer({ children, ...restProps }) {
@@ -41,6 +42,10 @@ Footer.List = function FooterList({ children, ...restProps }) {
 
 Footer.ListItem = function FooterListItem({ children, ...restProps }) {
   return <ListItem {...restProps}>{children}</ListItem>;
+};
+
+Footer.ListColumn = function FooterListColumn({ children, ...restProps }) {
+  return <ListColumn {...restProps}>{children}</ListColumn>;
 };
 
 Footer.Link = function FooterList({ children, ...restProps }) {

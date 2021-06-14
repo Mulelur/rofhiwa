@@ -10,7 +10,7 @@ export default function ExpertisePage() {
       <Background.Expertise>
         <NavBarContainer />
         <ExpertiseContainer />
-        <FooterContainer />
+        <FooterContainer footer />
       </Background.Expertise>
     </Background>
   );

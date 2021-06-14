@@ -6,8 +6,9 @@ import {
   Link,
   BottomCol,
   Title,
-  Image,
+  Avatar,
   Row,
+  Img,
 } from "./styles/about";
 
 export default function About({ children, ...restProps }) {
@@ -34,10 +35,18 @@ About.Title = function AboutTitle({ children, ...restProps }) {
   return <Title {...restProps}>{children}</Title>;
 };
 
-About.Image = function AboutImage({ ...restProps }) {
-  return <Image {...restProps} />;
+About.Avatar = function AboutImage({ children, ...restProps }) {
+  return <Avatar {...restProps}>{children}</Avatar>;
 };
 
 About.Row = function AboutRow({ children, ...restProps }) {
   return <Row {...restProps}>{children}</Row>;
+};
+
+About.Img = function AboutImage({ children, ...restProps }) {
+  return <Img {...restProps}>{children}</Img>;
+};
+
+About.Link = function AboutLink({ children, ...restProps }) {
+  return <Link {...restProps}>{children}</Link>;
 };

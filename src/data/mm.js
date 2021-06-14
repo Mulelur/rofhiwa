@@ -1,6 +1,6 @@
 export const mmData = [
   {
-    m1: [
+    m: [
       "Getting my degree of electrical engineering",
       "Getting a new laptop",
       "Getting a car",

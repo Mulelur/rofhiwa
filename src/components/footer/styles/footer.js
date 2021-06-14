@@ -1,24 +1,28 @@
 import styled from "styled-components/macro";
+import { textColor1 } from "../../../color";
 
 export const Container = styled.div`
-  margin: 8rem 0 0;
-  padding: 1rem 0 0 0rem;
-  color: #2b2b2b;
+  width: 100wv;
+  margin-top: 8rem;
+  padding: 2rem;
+  padding-bottom: 0;
+  color: ${({ footer }) => footer && "#ccc"};
+  color: ${({ contact }) => contact && textColor1};
+  @media (max-width: 560px) {
+    margin-top: 7.2rem;
+    padding: 0.7rem;
+    padding-bottom: 0;
+  }
 `;
 
 export const Row = styled.div`
   display: flex;
-  flex: 0 1 auto;
-  flex-direction: row;
-  flex-wrap: wrap;
   @media (max-width: 656px) {
     flex-direction: column;
-    align-items: center;
   }
 `;
 
 export const Column = styled.div`
-  flex-basis: 100%;
   max-width: 100%;
 `;
 
@@ -32,12 +36,16 @@ export const Heading3 = styled.h3`
   font-family: Canela Web, serif;
   font-weight: 500;
   letter-spacing: 0.5px;
+  @media (max-width: 760px) {
+    font-size: 1.9rem;
+    // margin-top: 1.5rem;
+  }
 `;
 
 export const Text = styled.p`
   max-width: 28.125rem;
   padding-right: 1rem;
-  color: #2b2b2b;
+
   font-size: 1.5rem;
   font-weight: 400;
   line-height: 1.8;
@@ -51,9 +59,19 @@ export const List = styled.ul`
   font-size: 0.95rem;
 `;
 
+export const ListColumn = styled.div`
+  padding: 3rem;
+  @media (max-width: 760px) {
+    padding: 2rem;
+  }
+`;
+
 export const ListItem = styled.li`
   line-height: 1.8;
   font-size: 1.6rem;
+  min-width: 12rem;
+  padding: 1rem;
+  color: ${({ color }) => color};
 `;
 
 export const Link = styled.a`
